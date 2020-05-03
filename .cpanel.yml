@@ -4,4 +4,4 @@ deployment:
   - export DEPLOYPATH=/home2/amirtara/public_html/
   - /bin/rm -Rf $DEPLOYPATH
   - /bin/mkdir $DEPLOYPATH
-  - /bin/build cp index.html $DEPLOYPATH
+  - /bin/cp -R build $DEPLOYPATH
