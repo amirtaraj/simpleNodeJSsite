@@ -37,9 +37,9 @@ function App() {
 
   return (
     <div className="App">
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id="mainNav">
     <div className="container">
-      <a className="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a className="navbar-brand js-scroll-trigger" href="#top">Amirtaraj R</a>
       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i className="fa fa-bars"></i>
@@ -47,16 +47,13 @@ function App() {
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav text-uppercase ml-auto">
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a className="nav-link js-scroll-trigger" href="#services">My Channel</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a className="nav-link js-scroll-trigger" href="#portfolio">News</a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#team">Team</a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -70,8 +67,8 @@ function App() {
   <header className="masthead">
     <div className="container">
       <div className="intro-text">
-        <div className="intro-lead-in">Welcome To Our Studio!</div>
-        <div className="intro-heading text-uppercase">It's Nice To Meet You</div>
+        <div className="intro-lead-in">Welcome To My Page!</div>
+        <div className="intro-heading text-uppercase">NICE TO SEE YOU AGAIN</div>
         <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
       </div>
     </div>
@@ -82,34 +79,25 @@ function App() {
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
-          <h2 className="section-heading text-uppercase">Services</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 className="section-heading text-uppercase">My Channel</h2>
+          <h3 className="section-subheading text-muted">Click <a href="https://www.youtube.com/user/amirtaraj?sub_confirmation=1" class="btn btn-primary">SUBSCRIBE</a> for more content like this</h3>
         </div>
       </div>
       <div className="row text-center">
         <div className="col-md-4">
-          <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 className="service-heading">E-Commerce</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <iframe title="iFrame1" width="350" height="197" src="https://www.youtube.com/embed/W0GtTNxcJ7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="yes"></iframe>
+          <h4 className="service-heading">RetroTech - iPhone 4S</h4>
+          <p className="text-muted">How is it using iPhone 4S in 2020 on iOS6 vs iOS9? Lets get some Nostalgia and pure skeuomorphism [in 8K ProRes]</p>
         </div>
         <div className="col-md-4">
-          <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 className="service-heading">Responsive Design</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <iframe title="iFrame2" width="350" height="197" src="https://www.youtube.com/embed/xXcVtj8wG3A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="yes"></iframe>
+          <h4 className="service-heading">Review - Apple Watch Series 4</h4>
+          <p className="text-muted">Apple Watch Series 4 review in 2019 with WatchOS 6 compared to Series 5, is it worth it? and Series 3, is it better than it?</p>
         </div>
         <div className="col-md-4">
-          <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 className="service-heading">Web Security</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <iframe title="iFrame3" width="350" height="197" src="https://www.youtube.com/embed/OE3ibgXKo4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="yes"></iframe>
+          <h4 className="service-heading">Lamborghini GIRO - 2018</h4>
+          <p className="text-muted">16 Bulls participated- Huracan x10, Huracan Spyder, Aventador Roadster, Aventador SV Roadster and Gallardo x3</p>
         </div>
       </div>
     </div>
@@ -123,8 +111,8 @@ function App() {
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
-          <h2 className="section-heading text-uppercase">About</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 className="section-heading text-uppercase">About Me</h2>
+          <h3 className="section-subheading text-muted">My Journey</h3>
         </div>
       </div>
       <div className="row">
@@ -132,15 +120,15 @@ function App() {
           <ul className="timeline">
             <li>
               <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src="img/about/1.jpg" alt=""/>
+                <img className="rounded-circle img-fluid" src="img/1.jpg" alt="infylogo"/>
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4>2009-2011</h4>
-                  <h4 className="subheading">Our Humble Beginnings</h4>
+                  <h4>July 2014 - May 2019</h4>
+                  <h4 className="subheading">Software Test Analyst</h4>
                 </div>
                 <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p className="text-muted">Performance Testing, API Testing, UI Automation Testing - Selenium, Cross Browser/ device Testing, Web Application maintenance</p>
                 </div>
               </div>
             </li>
@@ -200,95 +188,7 @@ function App() {
   </section>
 
   
-  <section className="bg-light page-section" id="team">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12 text-center">
-          <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-sm-4">
-          <div className="team-member">
-            <img className="mx-auto rounded-circle" src="img/team/1.jpg" alt=""/>
-            <h4>Kay Garland</h4>
-            <p className="text-muted">Lead Designer</p>
-            <ul className="list-inline social-buttons">
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-facebook-f"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-sm-4">
-          <div className="team-member">
-            <img className="mx-auto rounded-circle" src="img/team/2.jpg" alt=""/>
-            <h4>Larry Parker</h4>
-            <p className="text-muted">Lead Marketer</p>
-            <ul className="list-inline social-buttons">
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-facebook-f"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-sm-4">
-          <div className="team-member">
-            <img className="mx-auto rounded-circle" src="img/team/3.jpg" alt=""/>
-            <h4>Diana Pertersen</h4>
-            <p className="text-muted">Lead Developer</p>
-            <ul className="list-inline social-buttons">
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-facebook-f"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-8 mx-auto text-center">
-          <p className="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   
   <section className="py-5">
