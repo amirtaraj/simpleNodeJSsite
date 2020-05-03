@@ -5,3 +5,9 @@ deployment:
   - /bin/rm -Rf $DEPLOYPATH
   - /bin/mkdir $DEPLOYPATH
   - /bin/cp -R build/index.html $DEPLOYPATH
+  - /bin/cp -R build/static $DEPLOYPATH
+  - /bin/cp -R build/asset-manifest.json $DEPLOYPATH
+  - /bin/cp -R build/favicon.ico $DEPLOYPATH
+  - /bin/cp -R build/manifest.json $DEPLOYPATH
+  - /bin/cp -R build/service-worker.js $DEPLOYPATH
+  
