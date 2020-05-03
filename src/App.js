@@ -6,33 +6,48 @@ import './App.css';
 function App() {
   const portfolioLinks = [
     {
-      title: 'Threads',
-      caption: 'Illustration'
+      title: 'Corona Dashboard - India',
+      caption: 'Go Corona..Corona Go - Flaten the Curve, so Stay Home, Stay Safe',
+      site:'https://www.covid19india.org/',
+      image: 'img/coronadash.jpg',
+      alt: 'coronadash'
     },
     {
-      title: 'Explore',
-      caption: 'Graphic Design'
+      title: 'Team-BHP',
+      caption: 'The most trusted, detailed and unbiased Car Reviews & News in India.',
+      site: 'https://www.team-bhp.com/',
+      image: 'img/teambhp.jpg',
+      alt: 'teambhp'
     },
     {
-      title: 'Finish',
-      caption: 'Identity'
+      title: 'GitHub',
+      caption: 'The Place Where I Fork :p',
+      site: 'https://github.com/amirtaraj',
+      image: 'img/github.jpg',
+      alt: 'github'
     },
     {
-      title: 'Lines',
-      caption: 'Branding'
+      title: '9to5Mac',
+      caption: 'News and reviews on iPhone, iPad, and all things Mac!',
+      site: 'https://9to5mac.com/',
+      image: 'img/9to5mac.jpg',
+      alt: '9to5mac'
     },
     {
-      title: 'Southwest',
-      caption: 'Website Design'
+      title: 'GSM Arena',
+      caption: 'The ultimate resource for GSM handset information',
+      site: 'https://www.gsmarena.com/',
+      image: 'img/gsmarena.jpg',
+      alt: 'gsmarena'
     },
     {
-      title: 'Window',
-      caption: 'Photography'
+      title: 'My First Site :P',
+      caption: 'No, this is not News :p',
+      site: 'http://amirtaraj.page.tl/',
+      image: 'img/mysite1.jpg',
+      alt: 'mysite1'
     },
-    {
-      title: 'Pizza',
-      caption: 'I love pizza!'
-    }
+    
   ]
 
   return (
@@ -112,7 +127,7 @@ function App() {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">About Me</h2>
-          <h3 className="section-subheading text-muted">My Journey</h3>
+          <h3 className="section-subheading text-muted">My Professional Journey</h3>
         </div>
       </div>
       <div className="row">
@@ -120,6 +135,7 @@ function App() {
           <ul className="timeline">
             <li>
               <div className="timeline-image">
+              <h4>Infosys</h4>
                 <img className="rounded-circle img-fluid" src="img/1.jpg" alt="infylogo"/>
               </div>
               <div className="timeline-panel">
@@ -134,53 +150,35 @@ function App() {
             </li>
             <li className="timeline-inverted">
               <div className="timeline-image">
+              <h4>ABB</h4>
                 <img className="rounded-circle img-fluid" src="img/about/2.jpg" alt=""/>
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4>March 2011</h4>
-                  <h4 className="subheading">An Agency is Born</h4>
+                  <h4>May 2019 - Nov 2019</h4>
+                  <h4 className="subheading">Sales Support Speacialist</h4>
                 </div>
                 <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p className="text-muted">Application Maintenence and Setting up of UI Automation Framework using Selenium-TestNG</p>
                 </div>
               </div>
             </li>
             <li>
               <div className="timeline-image">
+              <h4>TekSystems</h4>
                 <img className="rounded-circle img-fluid" src="img/about/3.jpg" alt=""/>
               </div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 className="subheading">Transition to Full Service</h4>
+                  <h4>Nov 2019 - Present</h4>
+                  <h4 className="subheading">Senior Software Engineer</h4>
                 </div>
                 <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p className="text-muted">UI Automation Testing with Protractor - Cucumber BDD and Typescript language, API Testing, Performance Testing</p>
                 </div>
               </div>
             </li>
-            <li className="timeline-inverted">
-              <div className="timeline-image">
-                <img className="rounded-circle img-fluid" src="img/about/4.jpg" alt=""/>
-              </div>
-              <div className="timeline-panel">
-                <div className="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 className="subheading">Phase Two Expansion</h4>
-                </div>
-                <div className="timeline-body">
-                  <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li className="timeline-inverted">
-              <div className="timeline-image">
-                <h4>Be Part
-                  <br/>Of Our
-                  <br/>Story!</h4>
-              </div>
-            </li>
+            
           </ul>
         </div>
       </div>
@@ -191,32 +189,6 @@ function App() {
 
 
   
-  <section className="py-5">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-3 col-sm-6">
-          <a href="#something">
-            <img className="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt=""/>
-          </a>
-        </div>
-        <div className="col-md-3 col-sm-6">
-          <a href="#something">
-            <img className="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt=""/>
-          </a>
-        </div>
-        <div className="col-md-3 col-sm-6">
-          <a href="#something">
-            <img className="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt=""/>
-          </a>
-        </div>
-        <div className="col-md-3 col-sm-6">
-          <a href="#something">
-            <img className="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt=""/>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
 
   
   <section className="page-section" id="contact">
@@ -224,7 +196,8 @@ function App() {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">Contact Us</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h4 className="section-subheading text-muted">You are welcome to post comments, area of improvements and any content that I need to add to the site</h4>
+          <h3 className="section-subheading text-muted">Site Under Construction, So for now use the social links below in footer to contact me</h3>
         </div>
       </div>
       <div className="row">
@@ -268,23 +241,28 @@ function App() {
     <div className="container">
       <div className="row align-items-center">
         <div className="col-md-4">
-          <span className="copyright">Copyright &copy; Your Website 2019</span>
+          <span className="copyright">Copyright &copy; Amirtaraj R 2020</span>
         </div>
         <div className="col-md-4">
           <ul className="list-inline social-buttons">
             <li className="list-inline-item">
-              <a href="#something">
+              <a href="https://twitter.com/amirtaraj">
                 <i className="fa fa-twitter"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="#something">
+              <a href="https://www.facebook.com/amirtaraj.r">
                 <i className="fa fa-facebook-f"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="#something">
-                <i className="fa fa-linkedin-in"></i>
+              <a href="https://www.instagram.com/amirtaraj/">
+                <i className="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <a href="https://www.linkedin.com/in/amirtaraj/">
+                <i className="fa fa-linkedin"></i>
               </a>
             </li>
           </ul>
